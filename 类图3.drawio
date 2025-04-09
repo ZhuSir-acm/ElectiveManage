@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="oZDQTB_6RqBUF0dN3zPe">
-    <mxGraphModel>
+    <mxGraphModel dx="1190" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-2" target="2oKZ8NTr9hI1ohtRmm7n-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-2" value="&lt;div&gt;ForumController类&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-3" target="2oKZ8NTr9hI1ohtRmm7n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-3" value="获取获取当前&lt;div&gt;选中的论坛id&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-4" target="2oKZ8NTr9hI1ohtRmm7n-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-4" value="使用类中方法forumService.selectById(id)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="190" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-6" value="&lt;div&gt;得到帖子详情&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-7" target="2oKZ8NTr9hI1ohtRmm7n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-7" target="2oKZ8NTr9hI1ohtRmm7n-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-7" value="数据库&lt;div&gt;forum表&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="175" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-14" target="2oKZ8NTr9hI1ohtRmm7n-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-14" value="ForumController类中方法&lt;div&gt;getChilds获取所有的评论&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="342.33333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-15" value="forumService.selectList&lt;div&gt;id查询forum表所有中子节点&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-17" value="返回帖子详情和所有评论信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2oKZ8NTr9hI1ohtRmm7n-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.471;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2oKZ8NTr9hI1ohtRmm7n-6" target="2oKZ8NTr9hI1ohtRmm7n-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
